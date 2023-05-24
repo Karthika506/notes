@@ -1,10 +1,13 @@
 import "./App.css";
+import Editor from "./Components/Editor";
+import Sidebar from "./Components/Sidebar";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header"></header>
-    </div>
+    <main>
+      <Sidebar />
+      <Editor />
+    </main>
   );
 }
 
